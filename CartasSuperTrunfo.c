@@ -32,7 +32,9 @@ int main() {
    double PIB = 16.5;
    int Pontos_Turisticos = 16;
 
-
+    // Exibição dos Dados das Cartas:
+    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
+    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
    printf("\nInformações da cidade:\n");
    printf("Código da carta: %s\n", Codigo_da_carta);
    printf("Nome da cidade: %s\n", Nome_da_cidade);
@@ -41,8 +43,6 @@ int main() {
    printf("PIB: R$ %.2f bilhões\n", PIB);
    printf("Pontos turísticos: %d\n", Pontos_Turisticos);
 
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    
       return 0;
 }
